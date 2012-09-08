@@ -1,0 +1,20 @@
+= CarrierWave for Dynamoid
+
+This gem adds support for Dynamoid to CarrierWave, see the CarrierWave
+documentation for more detailed usage instructions.
+
+Install it like this:
+
+    gem install carrierwave-dynamoid
+
+Use it like this:
+
+    require 'carrierwave/dynamoid'
+
+Using bundler:
+
+    gem 'carrierwave-dynamoid', :require => 'carrierwave/dynamoid'
+
+NOTE: This is an experimental alpha based on the ActiveRecord support in CarrierWave and to a lesser extent the Sequel support.  I haven't spent the time to build out proper regression specs.  Please keep this in mind if you choose to use this in production.  
+
+Issues and Pull Requests are welcome.
